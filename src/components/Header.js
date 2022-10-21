@@ -47,8 +47,8 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="header_left" onClick={() => setSidebar(!sidebar)}>
-        <IconButton title="Menu">
+      <div className="header_left">
+        <IconButton title="Menu" onClick={() => setSidebar(!sidebar)}>
           <MenuIcon />
         </IconButton>
         <img
